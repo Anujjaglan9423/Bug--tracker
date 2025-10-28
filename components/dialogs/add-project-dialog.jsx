@@ -39,7 +39,7 @@ export function AddProjectDialog() {
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
         <Button size="sm" variant="ghost" className="h-6 w-6 p-0">
-          <Plus className="h-4 w-4" />
+          <Plus className="h-4 w-4 text-white" />
         </Button>
       </DialogTrigger>
       <DialogContent>
